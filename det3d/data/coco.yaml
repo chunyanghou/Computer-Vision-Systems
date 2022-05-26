@@ -1,0 +1,10 @@
+
+train: carla_image/train
+val: carla_image/test
+test: carla_image/test
+# number of classes
+nc: 5
+
+# class names
+names:  ["Car", "Truck", "Motorcycle", "Bicycle", "Pedestrian"]
+
